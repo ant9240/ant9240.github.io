@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "anthony llorente anthonyllorente09@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node": "^18.20.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
+ 
