@@ -1,5 +1,3 @@
-// import fetch from "node-fetch";
-
 const API = 'https://youtube138.p.rapidapi.com/channel/videos/?id=UC55-mxUj5Nj3niXFReG44OQ&filter=videos_latest&hl=en&gl=US';
 
 const content = document.getElementById('content');
