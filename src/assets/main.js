@@ -20,7 +20,7 @@ async function fetchData(urlApi) {
     try {
         const videos = await fetchData(API);
         let htmlView = '';
-        for (let i = 0; i < 12; i++) {
+        for (let i = 0; i < 8; i++) {
           const element = videos.videos[i]
           console.log(element);
           const title = element.title
